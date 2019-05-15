@@ -1,0 +1,82 @@
+.myimg{
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  /*border: 1px solid #000;*/
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+/*.img-circle{
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 60%; 
+}*/
+
+
+h1{
+	text-align: center;
+}
+
+h3{
+	cursor: pointer;
+  border:1px solid lightgray;
+  padding:1%;
+  background-color: lightblue;
+}
+
+.projects{
+	width: 75%;
+	margin: 3% auto;
+	border: 1px #ccc solid;
+	padding: 2%;
+}
+
+.outer {
+  border: 1px solid gray;
+  position:relative;
+  /*height: 150px;*/
+  margin-bottom: 2%;
+  padding: 20px;
+}
+.outer-img {
+  border-radius: 100%;
+  padding: 5px;
+  box-shadow:0px 0px 10px grey; 
+  position:absolute;
+  z-index: 1;
+  left: 10px;
+}
+.outer-div {
+  border-top: 1px solid gray;
+  position: relative;
+  z-index: -1;
+  top: 50px;
+}
+
+#message1, #message2{
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+#finalResult{
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2{
+  background-color: lightgray;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nice{
+  border: 1px solid #000;
+  padding: 20px;
+  margin-bottom: 2%;
+}
+
+.img-circle{
+  border-radius: 50%;
+}

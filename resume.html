@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+
+      <script>
+      function showHide(id) {
+        //console.log(id)
+        const div = document.getElementById(id);
+        console.log(div.style.display);
+        if (div.style.display === "none") {
+
+          div.style.display = "block";
+        } else {
+
+          div.style.display = "none";
+        }
+      }
+    </script>
+
+  </head>
+  <body>
+     <div class="container">
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">Ibrahim</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="resume.html">Resume</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="projects.html">Projects</a>
+             </li> </ul>
+
+         </div>
+        </nav>
+        
+        <h1>Resume</h1>
+
+         <h3 onclick="showHide('desc1')">Experience</h3>
+          <div id="desc1" style="display:none;">
+            <ul>
+              <h4>Associate Accounting representative at Ecobank</h4>
+              <li>controlled all activities and transaction during daily routine and elaborate report regarding customers feedbackabout service</li>
+            </ul>
+            <ul>
+              <h4>Customer service associate at Duane Reade walgreens</h4>
+              <li>Accomodate and anticipe all needs of customers</li>
+              <li>Pact out products boxes and fill up shelf</li>
+              <li>responsible for filling up cooler</li>
+            </ul>
+            <ul>
+              <h4>Chef Cook,pizzamen and server  </h4>
+              <h5>cook and explain various dishes </h5>
+              <li>Responsible for preparing pizza dough and pasta sauce </li>
+              <li>banquet server saturday evening SEN SENKANA restaurant</li>
+            </ul>
+          </div>
+        <h3 onclick="showHide('desc2')">Education</h3>
+          <div id="desc2" style="display:none;">
+            <h4>Graduate school of business (ESAM Abidjan plateau)</h4>
+            <h5>Associate degre in accounting </h5>
+            <h5>high diploma in sciene</h5>
+            <ul>
+              <h4>Certificates:</h4>
+              <li>Saari software certificate</li>
+              <li>English toefl and profeciency</li>
+              <li>insurance and marketing certificate</li>
+             
+            </ul>
+          </div>
+        <h3 onclick="showHide('desc3')">Skills</h3>
+          <div id="desc3" style="display:none;">
+             <h4>Highlights</h4>
+             <ul>
+              <li> Basics computer skill(world,Excel,Powerpoint</li>
+              <li>Reliable hard working and believe that noting comes easy</li>
+              <li>HTML,CSS,Javasript</li>
+             </ul>
+          </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
